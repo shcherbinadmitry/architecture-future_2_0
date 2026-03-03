@@ -1,0 +1,205 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/29.5.2 Chrome/142.0.7444.265 Electron/39.6.1 Safari/537.36" version="29.5.2">
+  <diagram name="Page-1" id="rIawmpOfs-cAJDh8R6T7">
+    <mxGraphModel dx="1543" dy="1005" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="x3BqkVvrgAyVPI5vS354-1" parent="1" style="whiteSpace=wrap;strokeWidth=2;" value="Разворачивается вручную (после terraform apply)" vertex="1">
+          <mxGeometry height="688" width="2949" x="754" y="474" as="geometry" />
+        </mxCell>
+        <mxCell id="x3BqkVvrgAyVPI5vS354-2" parent="1" style="whiteSpace=wrap;strokeWidth=2;verticalAlign=top;" value="Не эмулируется в Docker" vertex="1">
+          <mxGeometry height="588" width="325" x="789" y="524" as="geometry" />
+        </mxCell>
+        <mxCell id="x3BqkVvrgAyVPI5vS354-3" parent="x3BqkVvrgAyVPI5vS354-2" style="whiteSpace=wrap;strokeWidth=2;" value="GPU Node (ИИ домен)" vertex="1">
+          <mxGeometry height="54" width="242" x="50" y="43" as="geometry" />
+        </mxCell>
+        <mxCell id="x3BqkVvrgAyVPI5vS354-4" parent="x3BqkVvrgAyVPI5vS354-2" style="whiteSpace=wrap;strokeWidth=2;" value="Data Lakehouse&#xa;(Databricks/Snowflake)" vertex="1">
+          <mxGeometry height="78" width="228" x="57" y="147" as="geometry" />
+        </mxCell>
+        <mxCell id="x3BqkVvrgAyVPI5vS354-5" parent="x3BqkVvrgAyVPI5vS354-2" style="whiteSpace=wrap;strokeWidth=2;" value="DataHub (Data Catalog)" vertex="1">
+          <mxGeometry height="54" width="250" x="46" y="275" as="geometry" />
+        </mxCell>
+        <mxCell id="x3BqkVvrgAyVPI5vS354-6" parent="x3BqkVvrgAyVPI5vS354-2" style="whiteSpace=wrap;strokeWidth=2;" value="Apache Airflow (ETL)" vertex="1">
+          <mxGeometry height="54" width="230" x="56" y="379" as="geometry" />
+        </mxCell>
+        <mxCell id="x3BqkVvrgAyVPI5vS354-7" parent="x3BqkVvrgAyVPI5vS354-2" style="whiteSpace=wrap;strokeWidth=2;" value="Great Expectations&#xa;(Data Quality)" vertex="1">
+          <mxGeometry height="78" width="218" x="62" y="483" as="geometry" />
+        </mxCell>
+        <mxCell id="x3BqkVvrgAyVPI5vS354-8" parent="1" style="whiteSpace=wrap;strokeWidth=2;" value="Данные и схемы" vertex="1">
+          <mxGeometry height="638" width="588" x="1150" y="499" as="geometry" />
+        </mxCell>
+        <mxCell id="x3BqkVvrgAyVPI5vS354-9" parent="1" style="whiteSpace=wrap;strokeWidth=2;" value="Конфигурация приложений" vertex="1">
+          <mxGeometry height="638" width="1925" x="1758" y="499" as="geometry" />
+        </mxCell>
+        <mxCell id="x3BqkVvrgAyVPI5vS354-10" parent="1" style="whiteSpace=wrap;strokeWidth=2;" value="Управляется Terraform (terraform apply)" vertex="1">
+          <mxGeometry height="404" width="3708" x="20" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="x3BqkVvrgAyVPI5vS354-11" parent="1" style="whiteSpace=wrap;strokeWidth=2;" value="Containers" vertex="1">
+          <mxGeometry height="152" width="3549" x="157" y="247" as="geometry" />
+        </mxCell>
+        <mxCell id="x3BqkVvrgAyVPI5vS354-67" edge="1" parent="1" source="x3BqkVvrgAyVPI5vS354-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="x3BqkVvrgAyVPI5vS354-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="x3BqkVvrgAyVPI5vS354-68" edge="1" parent="1" source="x3BqkVvrgAyVPI5vS354-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="x3BqkVvrgAyVPI5vS354-28">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="595" y="230" />
+              <mxPoint x="1480" y="230" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="x3BqkVvrgAyVPI5vS354-69" edge="1" parent="1" source="x3BqkVvrgAyVPI5vS354-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="x3BqkVvrgAyVPI5vS354-31">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="595" y="230" />
+              <mxPoint x="2403" y="230" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="x3BqkVvrgAyVPI5vS354-71" edge="1" parent="1" source="x3BqkVvrgAyVPI5vS354-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="x3BqkVvrgAyVPI5vS354-32">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="595" y="230" />
+              <mxPoint x="2707" y="230" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="x3BqkVvrgAyVPI5vS354-12" parent="1" style="whiteSpace=wrap;strokeWidth=2;" value="Volumes (persistent storage)" vertex="1">
+          <mxGeometry height="152" width="1110" x="40" y="45" as="geometry" />
+        </mxCell>
+        <mxCell id="x3BqkVvrgAyVPI5vS354-13" parent="1" style="whiteSpace=wrap;strokeWidth=2;" value="Docker Images (pull)" vertex="1">
+          <mxGeometry height="152" width="1953" x="1170" y="45" as="geometry" />
+        </mxCell>
+        <mxCell id="x3BqkVvrgAyVPI5vS354-14" parent="1" style="whiteSpace=wrap;strokeWidth=2;" value="Network" vertex="1">
+          <mxGeometry height="152" width="512" x="3143" y="45" as="geometry" />
+        </mxCell>
+        <mxCell id="x3BqkVvrgAyVPI5vS354-15" parent="1" style="whiteSpace=wrap;strokeWidth=2;" value="Docker Network&#xa;future20-network&#xa;172.28.0.0/16" vertex="1">
+          <mxGeometry height="102" width="195" x="3306" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="x3BqkVvrgAyVPI5vS354-16" parent="1" style="whiteSpace=wrap;strokeWidth=2;" value="postgres:16-alpine" vertex="1">
+          <mxGeometry height="54" width="213" x="1205.5" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="x3BqkVvrgAyVPI5vS354-17" parent="1" style="whiteSpace=wrap;strokeWidth=2;" value="apache/kafka:3.7.0" vertex="1">
+          <mxGeometry height="54" width="222" x="1470" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="x3BqkVvrgAyVPI5vS354-18" parent="1" style="whiteSpace=wrap;strokeWidth=2;" value="minio/minio:latest" vertex="1">
+          <mxGeometry height="54" width="216" x="1810" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="x3BqkVvrgAyVPI5vS354-19" parent="1" style="whiteSpace=wrap;strokeWidth=2;" value="kong:3.6" vertex="1">
+          <mxGeometry height="54" width="143" x="2080" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="x3BqkVvrgAyVPI5vS354-20" parent="1" style="whiteSpace=wrap;strokeWidth=2;" value="prom/prometheus:v2.51.0" vertex="1">
+          <mxGeometry height="78" width="260" x="2273" y="106" as="geometry" />
+        </mxCell>
+        <mxCell id="x3BqkVvrgAyVPI5vS354-21" parent="1" style="whiteSpace=wrap;strokeWidth=2;" value="grafana/grafana:10.4.0" vertex="1">
+          <mxGeometry height="54" width="249" x="2583" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="x3BqkVvrgAyVPI5vS354-22" parent="1" style="whiteSpace=wrap;strokeWidth=2;" value="nginx:1.25-alpine" vertex="1">
+          <mxGeometry height="54" width="206" x="2882" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="x3BqkVvrgAyVPI5vS354-23" parent="1" style="whiteSpace=wrap;strokeWidth=2;" value="4× PostgreSQL volumes" vertex="1">
+          <mxGeometry height="54" width="244" x="80" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="x3BqkVvrgAyVPI5vS354-24" parent="1" style="whiteSpace=wrap;strokeWidth=2;" value="3× Kafka volumes" vertex="1">
+          <mxGeometry height="54" width="206" x="369" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="x3BqkVvrgAyVPI5vS354-70" edge="1" parent="1" source="x3BqkVvrgAyVPI5vS354-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="x3BqkVvrgAyVPI5vS354-29">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="595" y="230" />
+              <mxPoint x="1923" y="230" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="x3BqkVvrgAyVPI5vS354-25" parent="1" style="whiteSpace=wrap;strokeWidth=2;" value="1× MinIO volume" vertex="1">
+          <mxGeometry height="54" width="199" x="630" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="x3BqkVvrgAyVPI5vS354-26" parent="1" style="whiteSpace=wrap;strokeWidth=2;" value="2× Monitoring volumes" vertex="1">
+          <mxGeometry height="54" width="241" x="873" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="x3BqkVvrgAyVPI5vS354-27" parent="1" style="whiteSpace=wrap;strokeWidth=2;" value="4× PostgreSQL&#xa;(clinic, fintech, ops, medical)" vertex="1">
+          <mxGeometry height="102" width="260" x="829" y="284" as="geometry" />
+        </mxCell>
+        <mxCell id="x3BqkVvrgAyVPI5vS354-28" parent="1" style="whiteSpace=wrap;strokeWidth=2;" value="3× Kafka brokers&#xa;(KRaft cluster)" vertex="1">
+          <mxGeometry height="78" width="200" x="1380" y="284" as="geometry" />
+        </mxCell>
+        <mxCell id="x3BqkVvrgAyVPI5vS354-29" parent="1" style="whiteSpace=wrap;strokeWidth=2;" value="1× MinIO (S3)" vertex="1">
+          <mxGeometry height="54" width="175" x="1835.5" y="296" as="geometry" />
+        </mxCell>
+        <mxCell id="x3BqkVvrgAyVPI5vS354-30" parent="1" style="whiteSpace=wrap;strokeWidth=2;" value="1× Kong API Gateway" vertex="1">
+          <mxGeometry height="54" width="231" x="3127" y="296" as="geometry" />
+        </mxCell>
+        <mxCell id="x3BqkVvrgAyVPI5vS354-31" parent="1" style="whiteSpace=wrap;strokeWidth=2;" value="1× Prometheus" vertex="1">
+          <mxGeometry height="54" width="186" x="2310" y="296" as="geometry" />
+        </mxCell>
+        <mxCell id="x3BqkVvrgAyVPI5vS354-32" parent="1" style="whiteSpace=wrap;strokeWidth=2;" value="1× Grafana" vertex="1">
+          <mxGeometry height="54" width="159" x="2628" y="296" as="geometry" />
+        </mxCell>
+        <mxCell id="x3BqkVvrgAyVPI5vS354-33" parent="1" style="whiteSpace=wrap;strokeWidth=2;" value="1× Nginx (ALB)" vertex="1">
+          <mxGeometry height="54" width="185" x="3439" y="296" as="geometry" />
+        </mxCell>
+        <mxCell id="x3BqkVvrgAyVPI5vS354-34" parent="1" style="whiteSpace=wrap;strokeWidth=2;" value="S3 Buckets в MinIO&#xa;(medical-images, ml-models,&#xa;data-lakehouse, backups)" vertex="1">
+          <mxGeometry height="126" width="260" x="1801.5" y="850" as="geometry" />
+        </mxCell>
+        <mxCell id="x3BqkVvrgAyVPI5vS354-35" parent="1" style="whiteSpace=wrap;strokeWidth=2;" value="Kong Routes &amp;amp; Services&#xa;(kong.yml / Admin API)" vertex="1">
+          <mxGeometry height="78" width="246" x="3123" y="874" as="geometry" />
+        </mxCell>
+        <mxCell id="x3BqkVvrgAyVPI5vS354-36" parent="1" style="whiteSpace=wrap;strokeWidth=2;" value="Prometheus targets" vertex="1">
+          <mxGeometry height="78" width="220" x="2293" y="890" as="geometry" />
+        </mxCell>
+        <mxCell id="x3BqkVvrgAyVPI5vS354-37" parent="1" style="whiteSpace=wrap;strokeWidth=2;" value="Grafana Dashboards&#xa;Datasources" vertex="1">
+          <mxGeometry height="78" width="224" x="2595.5" y="880" as="geometry" />
+        </mxCell>
+        <mxCell id="x3BqkVvrgAyVPI5vS354-38" parent="1" style="whiteSpace=wrap;strokeWidth=2;" value="Nginx конфигурация&#xa;(nginx.conf / upstream)" vertex="1">
+          <mxGeometry height="78" width="232" x="3415.5" y="874" as="geometry" />
+        </mxCell>
+        <mxCell id="x3BqkVvrgAyVPI5vS354-39" parent="1" style="whiteSpace=wrap;strokeWidth=2;" value="SQL-схемы БД&#xa;(CREATE TABLE, миграции)" vertex="1">
+          <mxGeometry height="78" width="254" x="1185" y="857" as="geometry" />
+        </mxCell>
+        <mxCell id="x3BqkVvrgAyVPI5vS354-40" parent="1" style="whiteSpace=wrap;strokeWidth=2;" value="Kafka Topics&#xa;(создание через CLI)" vertex="1">
+          <mxGeometry height="78" width="214" x="1489" y="857" as="geometry" />
+        </mxCell>
+        <mxCell id="x3BqkVvrgAyVPI5vS354-60" edge="1" parent="1" source="x3BqkVvrgAyVPI5vS354-29" style="curved=1;dashed=1;dashPattern=2 3;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" target="x3BqkVvrgAyVPI5vS354-34" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="x3BqkVvrgAyVPI5vS354-61" edge="1" parent="1" source="x3BqkVvrgAyVPI5vS354-30" style="curved=1;dashed=1;dashPattern=2 3;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" target="x3BqkVvrgAyVPI5vS354-35" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="x3BqkVvrgAyVPI5vS354-62" edge="1" parent="1" source="x3BqkVvrgAyVPI5vS354-31" style="curved=1;dashed=1;dashPattern=2 3;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" target="x3BqkVvrgAyVPI5vS354-36" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="x3BqkVvrgAyVPI5vS354-63" edge="1" parent="1" source="x3BqkVvrgAyVPI5vS354-32" style="curved=1;dashed=1;dashPattern=2 3;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" target="x3BqkVvrgAyVPI5vS354-37" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="x3BqkVvrgAyVPI5vS354-64" edge="1" parent="1" source="x3BqkVvrgAyVPI5vS354-33" style="curved=1;dashed=1;dashPattern=2 3;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" target="x3BqkVvrgAyVPI5vS354-38" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="x3BqkVvrgAyVPI5vS354-65" edge="1" parent="1" source="x3BqkVvrgAyVPI5vS354-27" style="curved=1;dashed=1;dashPattern=2 3;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" target="x3BqkVvrgAyVPI5vS354-39" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1290" y="450" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="x3BqkVvrgAyVPI5vS354-66" edge="1" parent="1" source="x3BqkVvrgAyVPI5vS354-28" style="curved=1;dashed=1;dashPattern=2 3;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" target="x3BqkVvrgAyVPI5vS354-40" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="x3BqkVvrgAyVPI5vS354-72" edge="1" parent="1" source="x3BqkVvrgAyVPI5vS354-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.915;entryY=-0.013;entryDx=0;entryDy=0;entryPerimeter=0;" target="x3BqkVvrgAyVPI5vS354-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
