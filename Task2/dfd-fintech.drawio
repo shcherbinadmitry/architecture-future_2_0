@@ -1,0 +1,98 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/29.5.2 Chrome/142.0.7444.265 Electron/39.6.1 Safari/537.36" version="29.5.2">
+  <diagram name="Page-1" id="uLTaSUsCPZ4Dyuz4u3gd">
+    <mxGraphModel dx="1073" dy="699" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="LwGX2nBS3-bhCexT03lH-1" parent="1" style="whiteSpace=wrap;strokeWidth=2;" value=" Аналитический домен" vertex="1">
+          <mxGeometry height="217" width="569" x="2660" y="73" as="geometry" />
+        </mxCell>
+        <mxCell id="LwGX2nBS3-bhCexT03lH-2" parent="1" style="whiteSpace=wrap;strokeWidth=2;" value=" Финтех домен" vertex="1">
+          <mxGeometry height="290" width="953" x="1490" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="LwGX2nBS3-bhCexT03lH-3" parent="1" style="whiteSpace=wrap;strokeWidth=2;" value=" Партнёрский домен" vertex="1">
+          <mxGeometry height="300" width="892" x="348" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="LwGX2nBS3-bhCexT03lH-4" parent="1" style="rounded=1;whiteSpace=wrap;arcSize=50;strokeWidth=2;" value="Новый&#xa;финтех-сервис" vertex="1">
+          <mxGeometry height="63" width="142" x="20" y="116" as="geometry" />
+        </mxCell>
+        <mxCell id="LwGX2nBS3-bhCexT03lH-5" parent="1" style="whiteSpace=wrap;strokeWidth=2;" value="7.1 Регистрация&#xa;партнёра" vertex="1">
+          <mxGeometry height="78" width="180" x="373" y="55" as="geometry" />
+        </mxCell>
+        <mxCell id="LwGX2nBS3-bhCexT03lH-6" parent="1" style="whiteSpace=wrap;strokeWidth=2;" value="7.2 Настройка&#xa;API-адаптера" vertex="1">
+          <mxGeometry height="78" width="164" x="710" y="55" as="geometry" />
+        </mxCell>
+        <mxCell id="LwGX2nBS3-bhCexT03lH-7" parent="1" style="whiteSpace=wrap;strokeWidth=2;" value="7.3 Маппинг&#xa;данных" vertex="1">
+          <mxGeometry height="78" width="150" x="1065" y="55" as="geometry" />
+        </mxCell>
+        <mxCell id="LwGX2nBS3-bhCexT03lH-8" parent="1" style="whiteSpace=wrap;strokeWidth=2;" value="3.4 Подключение&#xa;нового канала" vertex="1">
+          <mxGeometry height="78" width="188" x="1515" y="55" as="geometry" />
+        </mxCell>
+        <mxCell id="LwGX2nBS3-bhCexT03lH-9" parent="1" style="whiteSpace=wrap;strokeWidth=2;" value="3.5 Тестирование&#xa;интеграции" vertex="1">
+          <mxGeometry height="78" width="191" x="1913" y="55" as="geometry" />
+        </mxCell>
+        <mxCell id="LwGX2nBS3-bhCexT03lH-10" parent="1" style="whiteSpace=wrap;strokeWidth=2;" value="3.6 Запуск&#xa;в продакшн" vertex="1">
+          <mxGeometry height="78" width="146" x="2272" y="108" as="geometry" />
+        </mxCell>
+        <mxCell id="LwGX2nBS3-bhCexT03lH-11" parent="1" style="whiteSpace=wrap;strokeWidth=2;" value="6.1 Добавление&#xa;метрик" vertex="1">
+          <mxGeometry height="78" width="177" x="2685" y="108" as="geometry" />
+        </mxCell>
+        <mxCell id="LwGX2nBS3-bhCexT03lH-12" parent="1" style="whiteSpace=wrap;strokeWidth=2;" value="6.2 Обновление&#xa;дашбордов" vertex="1">
+          <mxGeometry height="78" width="177" x="3026" y="108" as="geometry" />
+        </mxCell>
+        <mxCell id="LwGX2nBS3-bhCexT03lH-13" edge="1" parent="1" source="LwGX2nBS3-bhCexT03lH-4" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.13;entryX=0;entryY=0.5;rounded=0;" target="LwGX2nBS3-bhCexT03lH-5" value="API спецификация">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="255" y="94" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LwGX2nBS3-bhCexT03lH-14" edge="1" parent="1" source="LwGX2nBS3-bhCexT03lH-5" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.5;entryX=0;entryY=0.5;rounded=0;" target="LwGX2nBS3-bhCexT03lH-6" value="Конфигурация">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LwGX2nBS3-bhCexT03lH-15" edge="1" parent="1" source="LwGX2nBS3-bhCexT03lH-6" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.5;entryX=0;entryY=0.5;rounded=0;" target="LwGX2nBS3-bhCexT03lH-7" value="Маппинг форматов">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LwGX2nBS3-bhCexT03lH-16" edge="1" parent="1" source="LwGX2nBS3-bhCexT03lH-7" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.5;entryX=0;entryY=0.5;rounded=0;" target="LwGX2nBS3-bhCexT03lH-8" value="Стандартизированные данные">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LwGX2nBS3-bhCexT03lH-17" edge="1" parent="1" source="LwGX2nBS3-bhCexT03lH-8" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.5;entryX=0;entryY=0.5;rounded=0;" target="LwGX2nBS3-bhCexT03lH-9" value="Тестовые транзакции">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LwGX2nBS3-bhCexT03lH-18" edge="1" parent="1" source="LwGX2nBS3-bhCexT03lH-9" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.5;entryX=0;entryY=0.18;rounded=0;" target="LwGX2nBS3-bhCexT03lH-10" value="Подтверждение">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2188" y="94" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LwGX2nBS3-bhCexT03lH-19" edge="1" parent="1" source="LwGX2nBS3-bhCexT03lH-10" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.5;entryX=0;entryY=0.5;rounded=0;" target="LwGX2nBS3-bhCexT03lH-11" value="Событие: новый канал">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LwGX2nBS3-bhCexT03lH-20" edge="1" parent="1" source="LwGX2nBS3-bhCexT03lH-11" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.5;entryX=0;entryY=0.5;rounded=0;" target="LwGX2nBS3-bhCexT03lH-12" value="Новые метрики">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LwGX2nBS3-bhCexT03lH-21" edge="1" parent="1" source="LwGX2nBS3-bhCexT03lH-10" style="curved=1;startArrow=none;endArrow=block;exitX=0;exitY=0.82;entryX=1;entryY=0.86;rounded=0;" target="LwGX2nBS3-bhCexT03lH-4" value="Готовность">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2188" y="200" />
+              <mxPoint x="255" y="200" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

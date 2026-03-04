@@ -1,0 +1,120 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/29.5.2 Chrome/142.0.7444.265 Electron/39.6.1 Safari/537.36" version="29.5.2">
+  <diagram name="Page-1" id="AFyDLOZMLMyAqrplWYm0">
+    <mxGraphModel dx="2244" dy="1462" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="EKXOh-cGCCDO8RB7GCHF-1" parent="1" style="whiteSpace=wrap;strokeWidth=2;" value=" Аналитический домен" vertex="1">
+          <mxGeometry height="148" width="207" x="1490" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="EKXOh-cGCCDO8RB7GCHF-2" parent="1" style="whiteSpace=wrap;strokeWidth=2;" value=" Финтех домен" vertex="1">
+          <mxGeometry height="148" width="207" x="1490" y="188" as="geometry" />
+        </mxCell>
+        <mxCell id="EKXOh-cGCCDO8RB7GCHF-3" parent="1" style="whiteSpace=wrap;strokeWidth=2;" value=" Операционный домен" vertex="1">
+          <mxGeometry height="283" width="634" x="1064" y="356" as="geometry" />
+        </mxCell>
+        <mxCell id="EKXOh-cGCCDO8RB7GCHF-4" parent="1" style="whiteSpace=wrap;strokeWidth=2;" value=" Партнёрский домен" vertex="1">
+          <mxGeometry height="201" width="1676" x="301" y="659" as="geometry" />
+        </mxCell>
+        <mxCell id="EKXOh-cGCCDO8RB7GCHF-5" parent="1" style="rounded=1;whiteSpace=wrap;arcSize=50;strokeWidth=2;" value="Фарм.&#xa;компания" vertex="1">
+          <mxGeometry height="63" width="102" x="20" y="554" as="geometry" />
+        </mxCell>
+        <mxCell id="EKXOh-cGCCDO8RB7GCHF-6" parent="1" style="whiteSpace=wrap;strokeWidth=2;" value="7.4 Регистрация&#xa;фарм. компании" vertex="1">
+          <mxGeometry height="78" width="183" x="326" y="694" as="geometry" />
+        </mxCell>
+        <mxCell id="EKXOh-cGCCDO8RB7GCHF-7" parent="1" style="whiteSpace=wrap;strokeWidth=2;" value="7.5 Настройка&#xa;каталога лекарств" vertex="1">
+          <mxGeometry height="78" width="196" x="759" y="694" as="geometry" />
+        </mxCell>
+        <mxCell id="EKXOh-cGCCDO8RB7GCHF-8" parent="1" style="whiteSpace=wrap;strokeWidth=2;" value="7.6 Настройка&#xa;заказов" vertex="1">
+          <mxGeometry height="78" width="164" x="1788" y="747" as="geometry" />
+        </mxCell>
+        <mxCell id="EKXOh-cGCCDO8RB7GCHF-9" parent="1" style="whiteSpace=wrap;strokeWidth=2;" value="5.1 Импорт&#xa;каталога" vertex="1">
+          <mxGeometry height="78" width="143" x="1093" y="526" as="geometry" />
+        </mxCell>
+        <mxCell id="EKXOh-cGCCDO8RB7GCHF-10" parent="1" style="whiteSpace=wrap;strokeWidth=2;" value="5.2 Создание&#xa;заказа" vertex="1">
+          <mxGeometry height="78" width="157" x="1515" y="526" as="geometry" />
+        </mxCell>
+        <mxCell id="EKXOh-cGCCDO8RB7GCHF-11" parent="1" style="whiteSpace=wrap;strokeWidth=2;" value="5.3 Приёмка&#xa;поставки" vertex="1">
+          <mxGeometry height="78" width="152" x="1089" y="398" as="geometry" />
+        </mxCell>
+        <mxCell id="EKXOh-cGCCDO8RB7GCHF-12" parent="1" style="whiteSpace=wrap;strokeWidth=2;" value="3.7 Оплата&#xa;поставки" vertex="1">
+          <mxGeometry height="78" width="140" x="1524" y="223" as="geometry" />
+        </mxCell>
+        <mxCell id="EKXOh-cGCCDO8RB7GCHF-13" parent="1" style="whiteSpace=wrap;strokeWidth=2;" value="6.3 Метрики&#xa;закупок" vertex="1">
+          <mxGeometry height="78" width="151" x="1518" y="55" as="geometry" />
+        </mxCell>
+        <mxCell id="EKXOh-cGCCDO8RB7GCHF-14" edge="1" parent="1" source="EKXOh-cGCCDO8RB7GCHF-5" style="curved=1;startArrow=none;endArrow=block;exitX=0.79;exitY=0.99;entryX=0;entryY=0.5;rounded=0;" target="EKXOh-cGCCDO8RB7GCHF-6" value="Каталог лекарств">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="212" y="733" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EKXOh-cGCCDO8RB7GCHF-15" edge="1" parent="1" source="EKXOh-cGCCDO8RB7GCHF-6" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.5;entryX=0;entryY=0.5;rounded=0;" target="EKXOh-cGCCDO8RB7GCHF-7" value="Стандартизированный каталог">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EKXOh-cGCCDO8RB7GCHF-16" edge="1" parent="1" source="EKXOh-cGCCDO8RB7GCHF-7" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.5;entryX=0.34;entryY=1;rounded=0;" target="EKXOh-cGCCDO8RB7GCHF-9" value="Каталог">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1064" y="733" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EKXOh-cGCCDO8RB7GCHF-17" edge="1" parent="1" source="EKXOh-cGCCDO8RB7GCHF-9" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.5;entryX=0;entryY=0.5;rounded=0;" target="EKXOh-cGCCDO8RB7GCHF-10" value="Каталог загружен">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EKXOh-cGCCDO8RB7GCHF-18" edge="1" parent="1" source="EKXOh-cGCCDO8RB7GCHF-10" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.5;entryX=0;entryY=0.02;rounded=0;" target="EKXOh-cGCCDO8RB7GCHF-8" value="Заказ">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1697" y="565" />
+              <mxPoint x="1743" y="728" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EKXOh-cGCCDO8RB7GCHF-19" edge="1" parent="1" source="EKXOh-cGCCDO8RB7GCHF-8" style="curved=1;startArrow=none;endArrow=block;exitX=0;exitY=0.67;entryX=0.7;entryY=0.99;rounded=0;" target="EKXOh-cGCCDO8RB7GCHF-5" value="Заказ">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1743" y="807" />
+              <mxPoint x="190" y="870" />
+              <mxPoint x="100" y="770" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EKXOh-cGCCDO8RB7GCHF-20" edge="1" parent="1" source="EKXOh-cGCCDO8RB7GCHF-5" style="curved=1;startArrow=none;endArrow=block;exitX=0.79;exitY=-0.01;entryX=0;entryY=0.5;rounded=0;" target="EKXOh-cGCCDO8RB7GCHF-11" value="Поставка">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="212" y="437" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EKXOh-cGCCDO8RB7GCHF-21" edge="1" parent="1" source="EKXOh-cGCCDO8RB7GCHF-11" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.67;entryX=0.36;entryY=1;rounded=0;" target="EKXOh-cGCCDO8RB7GCHF-12" value="Событие: поставка принята">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1365" y="473" />
+              <mxPoint x="1490" y="473" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EKXOh-cGCCDO8RB7GCHF-22" edge="1" parent="1" source="EKXOh-cGCCDO8RB7GCHF-12" style="curved=1;startArrow=none;endArrow=block;exitX=0;exitY=0.5;entryX=0.63;entryY=-0.01;rounded=0;" target="EKXOh-cGCCDO8RB7GCHF-5" value="Оплата">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="212" y="262" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EKXOh-cGCCDO8RB7GCHF-23" edge="1" parent="1" source="EKXOh-cGCCDO8RB7GCHF-11" style="curved=1;dashed=1;dashPattern=2 3;startArrow=none;endArrow=block;exitX=1;exitY=0.36;entryX=0.42;entryY=1;rounded=0;" target="EKXOh-cGCCDO8RB7GCHF-13" value="DP: данные закупок">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1365" y="409" />
+              <mxPoint x="1490" y="409" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
